@@ -5,7 +5,7 @@ pragma solidity ^0.5.0;
 contract FaucetAdvanced{
 
   mapping(address => uint256) internal balance;
-  uint256 private max_withdraw = 1000000000000000000;
+  //uint256 private max_withdraw = 1000000000000000000;
   address private owner = msg.sender;
 
   event Refilled(address indexed owner, address indexed recipient, uint256 amount);
@@ -29,15 +29,15 @@ contract FaucetAdvanced{
       return true;
     }
     */
-    
+
     function available(address account) external view returns (uint256){
         return balance[account];
     }
 
-    function refill(address account, uint256 credit) external payable returns (bool){
+    function refill(address account) external payable returns (bool){
         require( msg.sender == owner, 'Only the owner can refill.' );
-        balance[account] = credit;
-        emit Refilled(msg.sender, account, credit);
+        balance[account] = balance[account] + msg.value;
+        emit Refilled(msg.sender, account, msg.value);
         return true;
     }
 }
