@@ -43,12 +43,8 @@ and approximately the version of these packages:
  
  ### Setup
  
- After install [Prerequisites](#prerequisites) you're ready to setup your git repo, clone it:
+ After install [Prerequisites](#prerequisites) you're ready to setup your git repo, clone it.
  
- ```
- git clone https://github.com/AMPM-ORG/main-challenge
- ```
-
  Create missing brownie project directories:
  
  ```
