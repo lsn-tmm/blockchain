@@ -1,0 +1,24 @@
+{
+   "challenge": {
+      "direct": "0xed4685cef203f43449f0207532eb272e1f2de4f8a6992033ed24099f086c2106",
+      "team": "0x3d1151f535ab57b7eefbbf3baaff50efaac64f3f0df368617499905f78cb2373",
+      "registered": "0x2d3734a8e47ac8316e500ac231c90a6e1848ca2285f40d07eaa52005e4b3a0e9",
+      "won_direct": "0x06c48e695609c5cc5b9d779d70abb26282055513fb1a55cba442b3cbc6d43bcd",
+      "won_team": "0xfa5c135de8c72e98296cdf12890ca8b3682f079fbb46849f6f549372f6348029",
+      "won_overnight": "0x75e44bccb8e953f3228b7bde1dc2a77ac72025aa92a8a329378d26b4f4e1a860"
+   },
+   "exchange": {
+      "priceChange": "0x024e1c492bc15609a5125924e67e792a203a4f550a353426fad01a2c6d5ff976",
+      "buy": "0x1cbc5ab135991bd2b6a4b034a04aa2aa086dac1371cb9b16b8b5e2ed6b036bed",
+      "sell": "0xed7a144fad14804d5c249145e3e0e2b63a9eb455b76aee5bc92d711e9bba3e4a",
+      "changeOpen": "0x16c752bdf6502cc829c9a81132e2e73aeb12d145e0e3b1cd632a9759485a5f53",
+      "changeEnd": "0x9cd0f0f4c626f6284b893eff5aa9a5f50e76b4fa9811bf3ec86ac52cc6ed7827"
+   },
+   "Lender": {
+      "open": "0x23cd1445b8a027ade09c4b0825b8f8754c4546359ee5580749840e268c53700d",
+      "close": "0x76801a4a22e85c96cbe318285c9b9504b000ab23d63b7daa07bc43f9b07b039f"
+   },
+   "payCoin": {
+      "MB": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+   }
+}
